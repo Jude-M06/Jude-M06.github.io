@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!--This line is needed incase poeple open it in a mobile browser, to keep the CSS correct-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet"><!--This and the 2 lines above it has to go before <link rel="stylesheet" href="style.css">-->
+        <link rel="stylesheet" href="style.css">
+        <title>Project Portfolio</title>
+    </head>
+    <body>
+        <nav>
+            <a href="#top">Jude Morgan</a> <!--The # should to be in ""-->
+            <ul> <!-- (ul) this tag makes the list horizontal-->
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div>
+                <h1>Jude Morgan</h1>
+                <p>A Computer science studen who has a speicalisation in AI and CyberSecurity</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-filled">Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact</a>
+                </div>
+            </div>
+        </header>
+
+        <section id="about">
+            <div class="section-inner">
+                <h2>About</h2>
+                <p>I'm a 3rd year Computer science student at the University of Liverpool, Specialising in both cyber security and AI. I have previous experience as a senior student ambassador and a 1 week online internship at Kainos. I'm currently looking for a placement, along side searching for a placement i am developing my skills through side projects such as this one.  </p>
+            </div>
+        </section>
+        <section id="projects" class="alt">
+            <div class="section-inner">
+                <h2>Projects</h2>
+                <div class="card">
+                    <h3>30 day Python challenge</h3>
+                    <p>This project actually contains 30 different projects, 1 for each day of a month. The purpose of this project was to improve my python programming skills through hands on projects</p>
+                    <a href="https://github.com/Jude-M06/30-day-python-challenge.git">GitHub repo</a>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">CLI</span>
+                    </div>
+                </div>
+            <div class="card">
+                    <h3>Python password analyser</h3>
+                    <p>A Python command-line tool that evaluates password strength based on length, character variety, common password matching, repeated/sequential character detection and Shannon entropy.</p>
+                    <a href="https://github.com/Jude-M06/Python-password-analyser">GitHub repo</a>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">CLI</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="section-inner">
+                <h2>Experience</h2>
+                <div class="card">
+                    <h3>Senior student ambassador</h3>
+                    <p>In this role my main job was to answer the questions of bith prosective studente and concerned parents while also showing them around the University</p>
+                    <div class="tags">
+                        <span class="tag">Employer: University of Liverpool</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Kainos internship</h3>
+                    <p> During my 1 week internship i mostly learnt about how a team (scrum) works together as well as differnt methodologies for tackling a project  </p>
+                    <div class="tags">
+                        <span class="tag">Employer: Kainos</span>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="contact" class="alt">
+            <div class="section-inner">
+                <h2>Contact</h2>
+                <ul> 
+                   <li><a href="mailto:Judemm22@Gmail.com">My Email: Judemm22@Gmail.com</a></li> 
+                    <li><a href="https://github.com/Jude-M06">My GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/jude-morgan/">My linkedin</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Jude Morgan</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
