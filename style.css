@@ -311,7 +311,39 @@ section.alt {
 .role p:not(.role-meta) {
     max-width: 62ch;
 }
+/*---------- Skills ----------- */
+ skill-group {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    column-gap: 32px;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid var(--border);
+}
  
+.skill-group:last-child {
+    
+    border-bottom: 1px solid var(--border);
+}
+ 
+.skill-group h3 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: var(--text-strong);
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+ 
+.skill-group .tag {
+    padding: 5px 14px;
+    border-color: var(--border);
+    background: var(--bg);
+    font-size: 0.9rem;
+    color: var(--text-strong);
+    margin-bottom: 10px;
+}
+
+
 /* ---------- Contact ---------- */
 .contact-links li + li {
     margin-top: 12px;
